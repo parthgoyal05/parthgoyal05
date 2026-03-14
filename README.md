@@ -22,7 +22,7 @@
 📧 [parthgoyal789@gmail.com](mailto:parthgoyal789@gmail.com)
 
 🔗 LinkedIn:
-<link href = linkedin.com/in/parth-goyal05 > linkedin.com/in/parth-goyal05 
+https://linkedin.com/in/parth-goyal05 
 
 ---
 
