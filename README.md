@@ -2,7 +2,7 @@
 <h3 align="center">B.Tech ICE @ NSUT | Data Analysis </h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Machine+Learning+Enthusiast;Building+AI+Applications;DSA+Learner;Research+in+EV+Charging+Forecasting" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Data+Analysis+Enthusiast;Research+in+EV+Charging+Forecasting" />
 </p>
 
 ---
