@@ -1,0 +1,137 @@
+<svg width="100%" height="100%" viewBox="0 0 1400 500" fill="none"
+xmlns="http://www.w3.org/2000/svg"
+shape-rendering="geometricPrecision"
+text-rendering="geometricPrecision">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2A1F14"/>
+      <stop offset="100%" stop-color="#1E1510"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="90" y1="60" x2="1310" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DEE8CE"/>
+      <stop offset="45%" stop-color="#BB6653"/>
+      <stop offset="100%" stop-color="#F08B51"/>
+    </linearGradient>
+
+    <linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#251A10"/>
+      <stop offset="100%" stop-color="#1A1208"/>
+    </linearGradient>
+
+    <linearGradient id="softGlow" x1="0" y1="0" x2="1400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DEE8CE" stop-opacity="0.16"/>
+      <stop offset="55%" stop-color="#BB6653" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#F08B51" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <style>
+      .cardTitle {
+        font: 700 26px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      .body {
+        font: 500 16px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      .pill {
+        font: 600 12px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        letter-spacing: 0.2px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="500" fill="url(#bg)"/>
+
+  <!-- Ambient shapes -->
+  <circle cx="180" cy="100" r="72" fill="#DEE8CE" opacity="0.08"/>
+  <circle cx="1220" cy="92" r="92" fill="#F08B51" opacity="0.08"/>
+  <circle cx="1175" cy="435" r="78" fill="#BB6653" opacity="0.10"/>
+  <circle cx="320" cy="430" r="58" fill="#FFF8E8" opacity="0.05"/>
+
+  <!-- Outer container -->
+  <rect
+    x="50"
+    y="30"
+    width="1300"
+    height="425"
+    rx="28"
+    fill="url(#cardFill)"
+    stroke="url(#accent)"
+    stroke-opacity="0.55"
+    stroke-width="1.6"/>
+
+  <!-- Top accent strip -->
+  <rect x="90" y="55" width="1220" height="8" rx="4" fill="url(#accent)" opacity="0.95"/>
+
+  <!-- Main publication card -->
+  <rect
+    x="90"
+    y="75"
+    width="1220"
+    height="300"
+    rx="24"
+    fill="#251A10"
+    stroke="#DEE8CE"
+    stroke-opacity="0.30"
+    stroke-width="1.2"/>
+
+  <!-- Left decorative rail -->
+  <rect x="90" y="75" width="14" height="300" rx="7" fill="url(#accent)" opacity="0.85"/>
+
+  <!-- Title -->
+  <text x="125" y="132" class="cardTitle" fill="#FFF8E8">
+    📈 EV Charging Demand Forecasting — Research Intern
+  </text>
+
+  <!-- Meta line -->
+  <text x="125" y="168" class="body" fill="#FFF8E8" opacity="0.92">
+    Aug–Nov 2025 · IEEE IoT-SIU 2025 paper
+  </text>
+
+  <!-- Description lines -->
+  <text x="125" y="208" class="body" fill="#FFF8E8" opacity="0.92">
+    250,000+ records preprocessed · Regression models
+  </text>
+  <text x="125" y="238" class="body" fill="#FFF8E8" opacity="0.92">
+    RMSE: 0.035 · Forecasting error: 0.37%
+  </text>
+
+  <!-- Divider -->
+  <line x1="125" y1="260" x2="1275" y2="260" stroke="#FFF8E8" stroke-opacity="0.16"/>
+
+  <!-- Lower supporting line -->
+  <text x="125" y="298" class="body" fill="#FFF8E8" opacity="0.82">
+    Research focused on long-term EV charging demand trends and infrastructure planning.
+  </text>
+
+  <!-- Tags -->
+  <g transform="translate(125,318)">
+    <rect x="0" y="0" rx="12" width="96" height="30" fill="#BB6653" opacity="0.96"/>
+    <rect x="108" y="0" rx="12" width="116" height="30" fill="#F08B51" opacity="0.96"/>
+    <rect x="236" y="0" rx="12" width="118" height="30" fill="#DEE8CE" opacity="0.96"/>
+    <rect x="366" y="0" rx="12" width="72" height="30" fill="#BB6653" opacity="0.96"/>
+    <rect x="450" y="0" rx="12" width="92" height="30" fill="#F08B51" opacity="0.96"/>
+
+    <text x="48" y="20" text-anchor="middle" class="pill" fill="#FFF8E8">IEEE IoT</text>
+    <text x="166" y="20" text-anchor="middle" class="pill" fill="#FFF8E8">Regression</text>
+    <text x="295" y="20" text-anchor="middle" class="pill" fill="#1E1510">250K+ Data</text>
+    <text x="402" y="20" text-anchor="middle" class="pill" fill="#FFF8E8">RMSE</text>
+    <text x="496" y="20" text-anchor="middle" class="pill" fill="#FFF8E8">Forecast</text>
+  </g>
+
+  <!-- Right side summary badge -->
+  <g>
+    <rect x="1080" y="114" width="190" height="118" rx="18" fill="#1E1510" stroke="#BB6653" stroke-opacity="0.45"/>
+    <circle cx="1112" cy="146" r="8" fill="#F08B51"/>
+    <circle cx="1140" cy="146" r="8" fill="#BB6653"/>
+    <circle cx="1168" cy="146" r="8" fill="#DEE8CE"/>
+    <text x="1110" y="183" class="body" fill="#FFF8E8">Research</text>
+    <text x="1110" y="208" class="body" fill="#FFF8E8">Internship</text>
+  </g>
+
+  <!-- Bottom glow -->
+  <ellipse cx="690" cy="438" rx="350" ry="28" fill="url(#softGlow)" opacity="0.45"/>
+</svg>

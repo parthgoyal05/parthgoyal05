@@ -1,0 +1,87 @@
+<svg width="100%" height="100%" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2A1F14"/>
+      <stop offset="100%" stop-color="#1E1510"/>
+    </linearGradient>
+
+    <linearGradient id="card" x1="60" y1="40" x2="1140" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2C1F14" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#1A1208" stop-opacity="0.99"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="80" y1="80" x2="1120" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DEE8CE"/>
+      <stop offset="50%" stop-color="#BB6653"/>
+      <stop offset="100%" stop-color="#F08B51"/>
+    </linearGradient>
+
+    <linearGradient id="glowA" x1="120" y1="100" x2="1100" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DEE8CE" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#BB6653" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="1 0 0 0 0.69
+                0 1 0 0 0.40
+                0 0 1 0 0.32
+                0 0 0 0.5 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="frameClip">
+      <rect x="58" y="42" width="1084" height="410" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="520" fill="url(#bg)"/>
+
+  <g clip-path="url(#frameClip)">
+    <circle cx="188" cy="106" r="96" fill="#DEE8CE" opacity="0.14" filter="url(#softGlow)"/>
+    <circle cx="1010" cy="384" r="124" fill="#F08B51" opacity="0.08" filter="url(#softGlow)"/>
+    <circle cx="930" cy="86" r="74" fill="#BB6653" opacity="0.12" filter="url(#softGlow)"/>
+    <circle cx="286" cy="392" r="68" fill="#FFF8E8" opacity="0.07" filter="url(#softGlow)"/>
+    <ellipse cx="600" cy="248" rx="390" ry="170" fill="url(#glowA)" opacity="0.45" filter="url(#softGlow)"/>
+  </g>
+
+  <rect x="58" y="42" width="1084" height="410" rx="26" fill="url(#card)" stroke="url(#accent)" stroke-opacity="0.60" stroke-width="1.4"/>
+
+  <!-- centered body text -->
+  <g fill="#FFF8E8"
+     font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+     font-size="20"
+     font-weight="500"
+     letter-spacing="0.01em"
+     text-anchor="middle">
+
+    <text x="600" y="114">
+      <tspan x="600" dy="0">I'm a second-year Instrumentation &amp; Control Engineering student at NSUT with a passion</tspan>
+      <tspan x="600" dy="25">for transforming raw data into actionable decisions and building systems that work in the</tspan>
+      <tspan x="600" dy="25">real world. My interests span Data Analytics, Business Analysis, and Core Engineering —</tspan>
+      <tspan x="600" dy="25">where sensors meet spreadsheets and circuits meet charts.</tspan>
+    </text>
+
+    <text x="600" y="244">
+      <tspan x="600" dy="0">From preprocessing 250,000+ EV charging records for an IEEE-published model to building</tspan>
+      <tspan x="600" dy="25">interactive Tableau dashboards for customer segmentation and real estate markets, I enjoy</tspan>
+      <tspan x="600" dy="25">solving complex, data-driven problems with clarity and precision.</tspan>
+    </text>
+
+    <text x="600" y="344">
+      <tspan x="600" dy="0">Currently interning at Maruti Suzuki in Quality Assurance, working on EV charging systems</tspan>
+      <tspan x="600" dy="25">and analytics. I'm always exploring new tools, refining my thinking, and looking for</tspan>
+      <tspan x="600" dy="25">opportunities where engineering depth meets business insight — whether in Data Science,</tspan>
+      <tspan x="600" dy="25">Business Analytics, or Core QA roles.</tspan>
+    </text>
+  </g>
+
+  <!-- typing cursor -->
+  <rect x="600" y="424" width="10" height="24" rx="3" fill="#FFF8E8" opacity="0.8">
+    <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite" />
+  </rect>
+</svg>
