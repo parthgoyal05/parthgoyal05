@@ -60,7 +60,7 @@
      text-anchor="middle">
 
     <text x="600" y="114">
-      <tspan x="600" dy="0">I'm a second-year Instrumentation &amp; Control Engineering student at NSUT with a passion</tspan>
+      <tspan x="600" dy="0">I'm a final year Instrumentation &amp; Control Engineering student at NSUT with a passion</tspan>
       <tspan x="600" dy="25">for transforming raw data into actionable decisions and building systems that work in the</tspan>
       <tspan x="600" dy="25">real world. My interests span Data Analytics, Business Analysis, and Core Engineering —</tspan>
       <tspan x="600" dy="25">where sensors meet spreadsheets and circuits meet charts.</tspan>
@@ -73,8 +73,7 @@
     </text>
 
     <text x="600" y="344">
-      <tspan x="600" dy="0">Currently interning at Maruti Suzuki in Quality Assurance, working on EV charging systems</tspan>
-      <tspan x="600" dy="25">and analytics. I'm always exploring new tools, refining my thinking, and looking for</tspan>
+      <tspan x="600" dy="25">I'm always exploring new tools, refining my thinking, and looking for</tspan>
       <tspan x="600" dy="25">opportunities where engineering depth meets business insight — whether in Data Science,</tspan>
       <tspan x="600" dy="25">Business Analytics, or Core QA roles.</tspan>
     </text>
